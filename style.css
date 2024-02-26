@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto';
     display: flex;
+    flex-direction: column;
 }
 
 .hero-image {
@@ -34,6 +35,7 @@ a {
 .header.logo{
     font-size: 24px;
     color: #F9FAF8;
+    margin: auto;
 }
 
 .header.image{
@@ -43,10 +45,32 @@ a {
 
 ul {
     list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: auto;
+    gap: 20px;
+}
+
+.top.links {
+    display: flex;
+    justify-content: space-between;
 }
 
 button.header{
     background-color: #3882F6;
     color: #E5E7EB;
     align-self:flex-start;
+}
+
+.top.content {
+    display: flex;
+}
+.maintext-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.header.image{
+    padding: 100px;
 }
