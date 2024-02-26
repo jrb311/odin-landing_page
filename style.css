@@ -1,9 +1,17 @@
 body {
     font-family: 'Roboto';
+    display: flex;
 }
 
 .hero-image {
     background-color: #1f2937;
+    min-width: 1250px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .header.maintext {
@@ -40,4 +48,5 @@ ul {
 button.header{
     background-color: #3882F6;
     color: #E5E7EB;
+    align-self:flex-start;
 }
