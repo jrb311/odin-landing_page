@@ -100,15 +100,15 @@ button.header{
 .image-spread{
     display: flex;
     gap: 20px;
-    margin-left: auto;
-    margin-right: auto;
     padding-bottom: 136px;
+    justify-content: center;
+    padding-left: 310px;
+    padding-right: 310px;
 }
 
 img.middle{
     border: 3px;
     border-radius: 5px;
-    flex: 1 1 auto;
 }
 
 .wrap-container {
