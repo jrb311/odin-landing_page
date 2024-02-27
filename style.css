@@ -185,6 +185,7 @@ img.middle{
 
 .quote{
     font-size: 36px;
+    font-weight: 300;
     font-style: italic;
     color: #1f2937;
     max-width: 900px;
@@ -194,7 +195,7 @@ img.middle{
 .author{
     font-size: 24px;
     color: #1f2937;
-    font-weight: 800;
+    font-weight: 700;
     align-self: flex-end;
     margin-right: 370px;
     margin-top: 0;
