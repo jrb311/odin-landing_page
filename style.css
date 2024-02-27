@@ -18,11 +18,13 @@ body {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 800;
+    margin: 0px;
 }
 
 .header.sectext {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0px;
 }
 
 .header.logo{
@@ -126,7 +128,10 @@ img.middle{
     width: 300px;
 }
 .img1-txt {
+    margin: 0;
+    text-align: center;
     color: #1f2937
+    
 }
 
 .img2 {
@@ -140,6 +145,8 @@ img.middle{
     width: 300px;
 }
 .img2-txt {
+    margin: 0;
+    text-align: center;
     color: #1f2937
 }
 
@@ -154,6 +161,8 @@ img.middle{
     width: 300px;
 }
 .img3-txt {
+    margin: 0;
+    text-align: center;
     color: #1f2937
 }
 
@@ -166,6 +175,11 @@ img.middle{
 #dragon-house{
     height: auto;
     width: 300px;
+}
+.img4-txt {
+    margin: 0;
+    text-align: center;
+    color: #1f2937
 }
 
 .quote-box {
