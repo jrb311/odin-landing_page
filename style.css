@@ -187,7 +187,7 @@ img.middle{
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -196,7 +196,7 @@ img.middle{
     color: #1f2937;
     font-weight: 800;
     align-self: flex-end;
-    margin-right: 350px;
+    margin-right: 370px;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -204,25 +204,24 @@ img.middle{
 .call-container{
     padding-top: 136px;
     padding-bottom: 136px;
-    padding-left: 400px;
-    padding-right: 400px;
+    display: flex;
+    justify-content: center;
 }
 
 .call-content-box{
     background-color: #3882F6;
     display: flex;
-    gap: 150px;
+    justify-content: space-evenly;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 150px;
     border-radius: 5px;
-    max-width: 900px;
+    width: 1050px;
+    
 }
 
 .call-text-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .call-header, .call-subtext{
