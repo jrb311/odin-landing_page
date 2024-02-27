@@ -8,12 +8,6 @@ body {
     background-color: #1f2937;
 }
 
-.hero-text {
-    display: flex;
-    flex-direction: column;
-    
-}
-
 .header.maintext {
     font-size: 48px;
     color: #F9FAF8;
@@ -198,9 +192,58 @@ img.middle{
 }
 
 .author{
-    font-size: 36px;
+    font-size: 24px;
     color: #1f2937;
     font-weight: 800;
     align-self: flex-end;
     margin-right: 350px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.call-container{
+    padding-top: 136px;
+    padding-bottom: 136px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.call-content-box{
+    background-color: #3882F6;
+    display: flex;
+    gap: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    border-radius: 5px;
+    max-width: 900px;
+}
+
+.call-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-header, .call-subtext{
+    color:#F9FAF8;
+    margin: 0;
+}
+
+.call-header{
+    font-size: 24px;
+}
+
+button.call{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 800;
+    font-size: 16px;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
 }
